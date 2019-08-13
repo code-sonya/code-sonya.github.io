@@ -2,7 +2,7 @@
 layout: post
 title:  "블로그 시작"
 date:   2019-08-13 01:30:13 +0800
-categories: blog
+categories: 블로그
 tags: jekyll
 comments: 1
 ---

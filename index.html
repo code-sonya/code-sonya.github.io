@@ -7,7 +7,9 @@ css: ["index.css"]
   <div class="col s12">
     <div class="card hoverable">
       <div class="card-content">
+        <a href="{{post.url | prepend: site.baseurl}}" style="color:#00537E">
         <span id="post-title" class="card-title">{{post.title}}</span>
+        </a>
         <p id="post-date">
           <i class="material-icons">date_range</i>
           {{post.date | date: "%d/%m/%Y %H:%M"}}
@@ -38,7 +40,7 @@ css: ["index.css"]
         </a>
       </li>
       {% if paginator.page == 1 %}
-      <li class="active teal">
+      <li class="active">
         <a href="#!">1</a>
       {% else %}
       <li class="waves-effect">
