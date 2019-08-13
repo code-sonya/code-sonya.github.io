@@ -21,7 +21,6 @@ url: "https://code-sonya.github.io"
 permalink: /:year/:month/:day/:title
 repository: code-sonya/code-sonya.github.io
 paginate: 5
-comments: 1
 
 # MatJek specific configurations
 github_profile: "https://github.com/code-sonya"
