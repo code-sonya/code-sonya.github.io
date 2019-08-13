@@ -2,8 +2,8 @@
 layout: post
 title:  "블로그 시작"
 date:   2019-08-13 01:30:13 +0800
-categories: etc
-tags: github jekyll
+categories: blog
+tags: jekyll
 comments: 1
 ---
 
